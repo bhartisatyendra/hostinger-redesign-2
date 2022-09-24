@@ -5,15 +5,18 @@
         "child": [
             {
                 "name": "Web Hosting",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "clarity:rack-server-solid"
             },
             {
                 "name": "Cloud Hosting",
-                "info": "For Medium to Big Websites."
+                "info": "For Medium to Big Websites.",
+                "icon": "ant-design:cloud-filled"
             },
             {
                 "name": "WordPress Hosting",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "dashicons:wordpress"
             }
         ]
     },
@@ -23,15 +26,18 @@
         "child": [
             {
                 "name": "Domain Name Search",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "carbon:earth-filled"
             },
             {
                 "name": "WHOIS Lookup",
-                "info": "For Medium to Big Websites."
+                "info": "For Medium to Big Websites.",
+                "icon": "iconoir:www"
             },
             {
                 "name": "Domain Transfer",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "iconoir:www"
             }
         ]
     },
@@ -41,11 +47,13 @@
         "child": [
             {
                 "name": "Google Work Space Email",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "akar-icons:google-fill"
             },
             {
                 "name": "Hosting Email Hosting",
-                "info": "For Medium to Big Websites."
+                "info": "For Medium to Big Websites.",
+                "icon": "akar-icons:google-fill"
             }
         ]
     },
@@ -55,15 +63,18 @@
         "child": [
             {
                 "name": "VPS Hosting",
-                "info": "For Small to Medium Websites."
+                "info": "For Small to Medium Websites.",
+                "icon": "akar-icons:google-fill"
             },
             {
                 "name": "Cyber Panel Hosting",
-                "info": "For Medium to Big Websites."
+                "info": "For Medium to Big Websites.",
+                "icon": "akar-icons:google-fill"
             },
             {
                 "name": "Minecraft Server Hosting",
-                "info": "For Medium to Big Websites."
+                "info": "For Medium to Big Websites.",
+                "icon": "akar-icons:google-fill"
             }
         ]
     }

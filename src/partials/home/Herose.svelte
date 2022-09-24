@@ -1,4 +1,5 @@
 <script>
+    import Icon from '@iconify/svelte';
     import { onMount } from "svelte";
   
     let time = new Date();
@@ -26,7 +27,7 @@
             <p class="text-c lh-lg py-2">MWe prepared the best web hosting plan for you to start. You will be able to adjust plans as you go - our custom-built algorithm.</p>
             <div class="action flex just-c flex-c g-4 py-2">
                 <a class="btn text-c round-xl" href="/">Get Started</a>
-                <a class="btn outline text-c round-xl" href="/">Get Started</a>
+                <a class="btn outline text-c round-xl" href="/">View Plans</a>
             </div>
             <h3 class="text-c py-2">Get free .com domain for 1st year</h3>
             <div class="timer flex just-c flex-w g-4 py-2">
@@ -47,14 +48,14 @@
                     <span class="text-ss">Seconds</span>
                 </div>
             </div>
-            <p class="text-xs text-c">✔ Get exclusive 30-day money-back guarantee*</p>
+            <p class="flex item-c just-c g-1 text-xs"><Icon icon="bi:check" width="24" color="#00ff00" /> Get exclusive 30-day money-back guarantee*</p>
         </div>
     </div>
 </div>
 
 <style>
     .herose {
-        padding: 2rem 0;
+        padding: 1.5rem 0;
         background: url("/liquid-cheese.svg");
         background-repeat: no-repeat;
         background-size: cover;

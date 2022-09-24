@@ -1,4 +1,5 @@
 <script>
+  import Icon from '@iconify/svelte';
   import Menu from "../../content/menu.json"
 
   let isMobile = false;
@@ -33,7 +34,7 @@
           <li on:click={() => subMenu(item.id)}>
             <button>
               <span>{item.name}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
               </svg>
             </button>
@@ -41,8 +42,11 @@
               {#each item.child as child}
               <li>
                 <a href="/">
-                  <strong class="text-md">{child.name}</strong>
-                  <p class="text-xs">{child.info}</p> 
+                  <Icon icon={child.icon} width="28" />
+                  <div class="grid">
+                    <strong class="text-md">{child.name}</strong>
+                    <p class="text-xs">{child.info}</p> 
+                  </div>
                 </a>
               </li>
               {/each}
@@ -171,8 +175,10 @@
       min-width: 320px;
     }
     .menu > ul > li > ul > li > a {
-      display: grid;
+      display: flex;
+      align-items: center;
       padding: 10px 20px;
+      gap: 1rem
     }
     .menu > ul > li > ul > li > a:hover {
       background-color: var(--brdr-color);

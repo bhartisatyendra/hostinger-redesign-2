@@ -75,7 +75,7 @@
         </div>
         <div class="tmark flex flex-c just-b g-2 brdr-t py-8">  
            <p class="flex just-c">&copy; 2022 Hostinger All rights reserved</p>                                                                                            
-           <p class="flex item-c just-c g-2">Redeign with <Icon icon="ant-design:heart-filled" width="16" color="red" /> By Sherman</p>
+           <p class="flex item-c just-c g-2">Redesign with <Icon icon="ant-design:heart-filled" width="16" color="red" /> By Sherman</p>
         </div>
     </div>
 </footer>
