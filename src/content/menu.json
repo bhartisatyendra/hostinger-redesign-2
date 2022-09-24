@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Hosting",
+        "child": [
+            {
+                "name": "Web Hosting",
+                "info": "For Small to Medium Websites."
+            },
+            {
+                "name": "Cloud Hosting",
+                "info": "For Medium to Big Websites."
+            },
+            {
+                "name": "WordPress Hosting",
+                "info": "For Small to Medium Websites."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Domain",
+        "child": [
+            {
+                "name": "Domain Name Search",
+                "info": "For Small to Medium Websites."
+            },
+            {
+                "name": "WHOIS Lookup",
+                "info": "For Medium to Big Websites."
+            },
+            {
+                "name": "Domain Transfer",
+                "info": "For Small to Medium Websites."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Email",
+        "child": [
+            {
+                "name": "Google Work Space Email",
+                "info": "For Small to Medium Websites."
+            },
+            {
+                "name": "Hosting Email Hosting",
+                "info": "For Medium to Big Websites."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "VPS",
+        "child": [
+            {
+                "name": "VPS Hosting",
+                "info": "For Small to Medium Websites."
+            },
+            {
+                "name": "Cyber Panel Hosting",
+                "info": "For Medium to Big Websites."
+            },
+            {
+                "name": "Minecraft Server Hosting",
+                "info": "For Medium to Big Websites."
+            }
+        ]
+    }
+]
