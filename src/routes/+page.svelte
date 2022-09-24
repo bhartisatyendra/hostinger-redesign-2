@@ -6,6 +6,11 @@
   import Review from "../partials/home/Review.svelte";
 </script>
 
+<svelte:head>
+	<title>Hostinger Redesign</title>
+  <meta name="description" content="Hostinger Redesign by Sherman. Powered By SvelteKit.">
+</svelte:head>
+
 <main class="content">
 
     <Herose />
