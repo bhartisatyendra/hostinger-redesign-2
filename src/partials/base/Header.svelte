@@ -69,9 +69,9 @@
   .header {
     position: sticky;
     top: 0;
-    background-color: rgb(13 14 51 / 80%);
+    background-color: rgb(13 14 51 / 60%);
     border-bottom: 1px solid var(--brdr-color);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(16px);
     transition: 0.2s ease;
   }
   .menu > ul {

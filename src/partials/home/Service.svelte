@@ -3,7 +3,7 @@
         <div class="box grid g-8">
             <div class="grid sm g-4">
                 <h2 class="text-c">Why Hostinger is Best?</h2>
-                <p class="text-c">We prepared the best web hosting plan for you to start. You will be able to adjust plans as you go - our custom-built algorithm.</p>
+                <p class="text-c">A wide variety of tools to satisfy advanced user and website developer needs.</p>
             </div>
             <div class="grid col-3 g-6">
                 <div class="bg-soft round-sm g-4 p-6">

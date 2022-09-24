@@ -73,8 +73,9 @@
                 </ul>
             </div>
         </div>
-        <div class="tmark brdr-t py-8">                                                                                             
-           <p>Copyright &copy; 2022 All rights reserved.</p>
+        <div class="tmark flex flex-c just-b g-2 brdr-t py-8">  
+           <p class="flex just-c">&copy; 2022 Hostinger All rights reserved</p>                                                                                            
+           <p class="flex item-c just-c g-2">Redeign with <Icon icon="ant-design:heart-filled" width="16" color="red" /> By Sherman</p>
         </div>
     </div>
 </footer>
@@ -85,6 +86,11 @@
     }
     .links .item {
         min-width: 160px;
+    }
+    @media (min-width: 768px) {
+        .tmark {
+            flex-direction: row;
+        }
     }
     @media (min-width: 992px) {
         .brand {

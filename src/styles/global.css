@@ -257,6 +257,10 @@ img {
   border-radius: 2.5rem;
 }
 
+.round-full {
+  border-radius: 100%;
+}
+
 /* Custom */
 
 .logo a {

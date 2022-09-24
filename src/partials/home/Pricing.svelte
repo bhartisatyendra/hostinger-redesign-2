@@ -15,7 +15,7 @@
                 <div class="brdr round-md p-8">
                     <div class="grid g-2">
                         <h3 class="text-c">Shared Hosting</h3>
-                        <p class="text-xs text-c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="text-xs text-c">Perfect package for personal websites</p>
                     </div>
                     <div class="grid g-4 py-8">
                         <div class="save flex item-c just-c g-2">
@@ -47,7 +47,7 @@
                 <div class="bg-soft round-md p-8">
                     <div class="grid g-2">
                         <h3 class="text-c">WordPress Hosting</h3>
-                        <p class="text-xs text-c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="text-xs text-c">Ideal solution for beginners</p>
                     </div>
                     <div class="grid g-4 py-8">
                         <div class="save flex item-c just-c g-2">
@@ -79,7 +79,7 @@
                 <div class="brdr round-md p-8">
                     <div class="grid g-2">
                         <h3 class="text-c">Cloud Hosting</h3>
-                        <p class="text-xs text-c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="text-xs text-c">Best Hosting for Professionals</p>
                     </div>
                     <div class="grid g-4 py-8">
                         <div class="save flex item-c just-c g-2">

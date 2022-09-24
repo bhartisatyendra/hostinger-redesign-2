@@ -1,7 +1,7 @@
 <script>
   import "../styles/global.css"  
-  import Footer from "../partials/site/Footer.svelte";
-  import Header from "../partials/site/Header.svelte";
+  import Footer from "../partials/base/Footer.svelte";
+  import Header from "../partials/base/Header.svelte";
 </script>
 
 <Header />

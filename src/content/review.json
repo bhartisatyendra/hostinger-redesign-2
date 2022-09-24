@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "image": "/img/john.webp",
+        "content": "Great purchase and Support team! I purchased a subscription and received a free domain along with a lot of help getting it up and going along with moving over my other domain.",
+        "jobTitle": "Freelancer"
+    },
+    {
+        "id": 2,
+        "name": "Vinod Thapa",
+        "image": "/img/vinod.webp",
+        "content": "I have been with Hostinger for several years and I have always had the best performance in web hosting services. Great customer service, and afordable prices. Fantastic!",
+        "jobTitle": "YouTuber"
+    },
+    {
+        "id": 3,
+        "name": "Sherman K.",
+        "image": "/img/sherman.webp",
+        "content": "Hostinger hosting is the best hosting I have dealt with in two years. The servers are responsive and fast A support team deserving of respect",
+        "jobTitle": "Student"
+    }
+]
