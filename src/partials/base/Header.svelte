@@ -42,7 +42,9 @@
               {#each item.child as child}
               <li>
                 <a href="/">
-                  <Icon icon={child.icon} width="28" />
+                  <div class="flex item-c bg-soft brdr round-sm p-2">
+                    <Icon icon={child.icon} width="28" />
+                  </div>
                   <div class="grid">
                     <strong class="text-md">{child.name}</strong>
                     <p class="text-xs">{child.info}</p> 
@@ -76,6 +78,7 @@
     background-color: rgb(13 14 51 / 60%);
     border-bottom: 1px solid var(--brdr-color);
     backdrop-filter: blur(16px);
+    z-index: 4;
     transition: 0.2s ease;
   }
   .menu > ul {
@@ -107,8 +110,10 @@
     transition: .2s ease;
   }
   .menu > ul > li > ul > li > a {
-    display: grid;
+    display: flex;
+    align-items: center;
     padding: 12px 20px;
+    gap: 1.25rem
   }
   .btn {
     padding: 6px 12px;
@@ -141,7 +146,7 @@
       margin-left: 0;
     }
     .menu > ul > li > button {
-      padding: 12px 20px;
+      padding: 16px 20px;
     }
     .menu > ul > li > ul:not(.active) {
       opacity: 0;
@@ -150,13 +155,6 @@
     }
     .menu > ul > li > ul {
       overflow: hidden;
-    }
-    .menu > ul > li > ul > li > a {
-      margin-left: 1.5rem;
-      border-left: 1px solid var(--brdr-color);
-    }
-    .menu > ul > li > ul > li > a:hover {
-      border-color: var(--main-color);
     }
   }
   @media (min-width: 992px) {
@@ -172,13 +170,10 @@
       border: 1px solid var(--brdr-color);
       border-radius: 1rem;
       transform: translate(-50%,0);
-      min-width: 320px;
+      min-width: 400px;
     }
     .menu > ul > li > ul > li > a {
-      display: flex;
-      align-items: center;
       padding: 10px 20px;
-      gap: 1rem
     }
     .menu > ul > li > ul > li > a:hover {
       background-color: var(--brdr-color);

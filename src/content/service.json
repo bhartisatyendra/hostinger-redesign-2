@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "99.9% Uptime Guarantee",
+        "icon": "akar-icons:double-check"
+    },
+    {
+        "id": 2,
+        "name": "Free SSL Certificate",
+        "icon": "iconoir:secure-window"
+    },
+    {
+        "id": 3,
+        "name": "24/7 Tech Support",
+        "icon": "ic:outline-support-agent"
+    },
+    {
+        "id": 4,
+        "name": "eCommerce Optimization",
+        "icon": "entypo:shop"
+    },
+    {
+        "id": 5,
+        "name": "Free Migration",
+        "icon": "ic:round-rocket-launch"
+    },
+    {
+        "id": 6,
+        "name": "LiteSpeed Cache Plugin",
+        "icon": "mingcute:plugin-fill"
+    },
+    {
+        "id": 7,
+        "name": "1-Click WP Installation",
+        "icon": "dashicons:wordpress"
+    },
+    {
+        "id": 8,
+        "name": "PHP Speed Boost",
+        "icon": "fontisto:php"
+    },
+    {
+        "id": 9,
+        "name": "Auto Script Installer",
+        "icon": "gala:file-script"
+    },
+    {
+        "id": 10,
+        "name": "Automated backups",
+        "icon": "fa-solid:server"
+    },
+    {
+        "id": 11,
+        "name": "Access Management",
+        "icon": "el:key"
+    },
+    {
+        "id": 12,
+        "name": "DDoS Protection",
+        "icon": "bi:cloud-check-fill"
+    }
+]

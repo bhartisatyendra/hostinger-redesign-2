@@ -11,9 +11,9 @@
                 <h2 class="text-c">Our Hosting Plan</h2>
                 <p class="text-c">We prepared the best web hosting plan for you to start. You will be able to adjust plans as you go - our custom-built algorithm.</p>
                 <div class="flex just-c py-2">
-                    <div class="flex bg-soft round-xl p-2" on:click={() => (isMonthly = !isMonthly)}>
-                        <button class="btn round-xl">Monthly</button>
-                        <button class="btn bg-soft round-xl">Yearly</button>
+                    <div class="switch flex bg-soft round-xl p-2 {isMonthly ? 'active' : ''}">
+                        <span class="flex-1" on:click={() => (isMonthly = true)}>Monthly</span>
+                        <span class="flex-1" on:click={() => (isMonthly = false)}>Yearly</span>
                     </div>
                 </div>
             </div>
@@ -120,6 +120,34 @@
 </section>
 
 <style>
+    .switch {
+        position: relative;
+    }
+    .switch::before {
+        content: "";
+        position: absolute;
+    display: flex;
+    height: 42px;
+    width: 92px;
+    background-color: var(--main-color);
+    z-index: 1;
+    border-radius: 99px;
+    left: 10px;
+    transition: 0.2s ease;
+    }
+    .switch:not(.active):before {
+        left: 50%;
+    }
+    .switch span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 8px 20px;
+        color: var(--bold-color);
+        width: 92px;
+        z-index: 2;
+    }
     .save .btn {
         cursor: text;
         padding: 2px 8px;

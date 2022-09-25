@@ -26,18 +26,18 @@
         "child": [
             {
                 "name": "Domain Name Search",
-                "info": "For Small to Medium Websites.",
+                "info": "Find the perfect domain name.",
                 "icon": "carbon:earth-filled"
             },
             {
                 "name": "WHOIS Lookup",
-                "info": "For Medium to Big Websites.",
+                "info": "Lookup tool to find WHOIS information.",
                 "icon": "iconoir:www"
             },
             {
                 "name": "Domain Transfer",
-                "info": "For Small to Medium Websites.",
-                "icon": "iconoir:www"
+                "info": "Want to transfer domain to Hostinger?",
+                "icon": "ant-design:user-switch-outlined"
             }
         ]
     },
@@ -47,13 +47,13 @@
         "child": [
             {
                 "name": "Google Work Space Email",
-                "info": "For Small to Medium Websites.",
+                "info": "Get custom email and 30GB of storage.",
                 "icon": "akar-icons:google-fill"
             },
             {
                 "name": "Hosting Email Hosting",
-                "info": "For Medium to Big Websites.",
-                "icon": "akar-icons:google-fill"
+                "info": "Promote your business with every outreach.",
+                "icon": "bx:at"
             }
         ]
     },
@@ -63,18 +63,18 @@
         "child": [
             {
                 "name": "VPS Hosting",
-                "info": "For Small to Medium Websites.",
-                "icon": "akar-icons:google-fill"
+                "info": "Dedicated resources to scale.",
+                "icon": "gg:server"
             },
             {
                 "name": "Cyber Panel Hosting",
-                "info": "For Medium to Big Websites.",
-                "icon": "akar-icons:google-fill"
+                "info": "Control panel with LiteSpeed Webserver.",
+                "icon": "bxs:bolt-circle"
             },
             {
                 "name": "Minecraft Server Hosting",
-                "info": "For Medium to Big Websites.",
-                "icon": "akar-icons:google-fill"
+                "info": "Share your Minecraft experience.",
+                "icon": "mdi:minecraft"
             }
         ]
     }
