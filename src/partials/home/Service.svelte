@@ -1,6 +1,5 @@
 <script>
     import Icon from '@iconify/svelte';
-
     import Service from "../../content/service.json"
 </script>
 

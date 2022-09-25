@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "name": "Hosting",
+        "child": [
+            {
+                "name": "VPS Hosting",
+                "link": "#"
+            },
+            {
+                "name": "Cloud Hosting",
+                "link": "#"
+            },
+            {
+                "name": "WordPress Hosting",
+                "link": "#"
+            },
+            {
+                "name": "Ecommerce Hosting",
+                "link": "#"
+            },
+            {
+                "name": "Free Web Hosting",
+                "link": "#"
+            },
+            {
+                "name": "Email Hosting",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Domain",
+        "child": [
+            {
+                "name": "Domain Transfer",
+                "link": "#"
+            },
+            {
+                "name": "XYZ Domain",
+                "link": "#"
+            },
+            {
+                "name": "Cheap Domains",
+                "link": "#"
+            },
+            {
+                "name": "WHOIS Lookup",
+                "link": "#"
+            },
+            {
+                "name": "Free SSL Certificate",
+                "link": "#"
+            },
+            {
+                "name": "Free Domain Name",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Information",
+        "child": [
+            {
+                "name": "Migrate to Hostinger",
+                "link": "#"
+            },
+            {
+                "name": "System Status",
+                "link": "#"
+            },
+            {
+                "name": "Affiliate Program",
+                "link": "#"
+            },
+            {
+                "name": "Payment Methods",
+                "link": "#"
+            },
+            {
+                "name": "Rewards",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Company",
+        "child": [
+            {
+                "name": "About Hostinger",
+                "link": "#"
+            },
+            {
+                "name": "Our Technology",
+                "link": "#"
+            },
+            {
+                "name": "Customer Care",
+                "link": "#"
+            },
+            {
+                "name": "Roadmap",
+                "link": "#"
+            },
+            {
+                "name": "Blog",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Legal & Help",
+        "child": [
+            {
+                "name": "About us",
+                "link": "#"
+            },
+            {
+                "name": "Contact us",
+                "link": "#"
+            },
+            {
+                "name": "Privacy Policy",
+                "link": "#"
+            },
+            {
+                "name": "Terms of Service",
+                "link": "#"
+            },
+            {
+                "name": "Report Online Abuse",
+                "link": "#"
+            }
+        ]
+    }
+]

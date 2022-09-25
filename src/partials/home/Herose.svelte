@@ -1,5 +1,4 @@
 <script>
-    import Icon from '@iconify/svelte';
     import { onMount } from "svelte";
   
     let time = new Date();
@@ -24,7 +23,7 @@
     <div class="wrapper py-8">
         <div class="box sm flex flex-c just-c g-2 py-8">
             <h2 class="text-c">Savings to Set Your Website in Motion</h2>
-            <p class="text-c lh-lg py-2">MWe prepared the best web hosting plan for you to start. You will be able to adjust plans as you go - our custom-built algorithm.</p>
+            <p class="text-c lh-lg py-2">Get things moving with a free domain, lifetime SSL, and DDoS protection included with a four-year subscription.</p>
             <div class="action flex just-c flex-c g-4 py-2">
                 <a class="btn text-c round-xl" href="/">Get Started</a>
                 <a class="btn outline text-c round-xl" href="/">View Plans</a>
@@ -48,7 +47,7 @@
                     <span class="text-ss">Seconds</span>
                 </div>
             </div>
-            <p class="flex item-c just-c g-1 text-xs"><Icon icon="bi:check" width="24" color="#00ff00" /> Get exclusive 30-day money-back guarantee*</p>
+            <p class="flex item-c just-c g-1 text-xs">Get exclusive 30-day money-back guarantee*</p>
         </div>
     </div>
 </div>
@@ -61,7 +60,7 @@
         background-size: cover;
     }
     .box {
-        padding: 1rem;
+        padding: .5rem 1rem;
     }
     .box h2 {
         font-size: 1.75rem;

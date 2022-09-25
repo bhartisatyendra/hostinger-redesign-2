@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "Shared Hosting",
+        "info": "Ideal solution for beginners",
+        "price": "329",
+        "offer": "69",
+        "features": [
+            "1 Website",
+            "2 Databases",
+            "1 Email Account",
+            "50 GB SSD Storage",
+            "100 GB Bandwidth",
+            "Unlimited Free SSL",
+            "Managed WordPress",
+            "~10 000 Visits Monthly",
+            "99.9% Uptime Guarantee",
+            "24/7 Tech Support"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "WordPress Hosting",
+        "info": "Perfect package for personal websites",
+        "price": "649",
+        "offer": "249",
+        "features": [
+            "Free Email",
+            "100 Websites",
+            "200 GB SSD Storage",
+            "250 GB SSD Storage",
+            "Free Domain - ₹749.00",
+            "Unlimited Bandwidth",
+            "Unlimited Free SSL",
+            "Managed WordPress",
+            "99.9% Uptime Guarantee",
+            "24/7 Tech Support"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Cloud Hosting",
+        "info": "Best Hosting for Professionals",
+        "price": "1,699",
+        "offer": "799",
+        "features": [
+            "6 GB RAM",
+            "4 CPU Cores",
+            "300 Websites",
+            "250 GB SSD Storage",
+            "Free Domain - ₹749.00",
+            "Daily Backups - ₹1,380.00",
+            "Unlimited Free SSL",
+            "Dedicated IP Address",
+            "99.9% Uptime Guarantee",
+            "24/7 Tech Support"
+        ]
+    }
+]

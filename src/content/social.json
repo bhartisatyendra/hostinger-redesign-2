@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "facebook",
+        "icon": "ant-design:facebook-filled",
+        "link": "https://www.facebook.com/"
+    },
+    {
+        "id": 2,
+        "name": "Twitter",
+        "icon": "ant-design:twitter-outlined",
+        "link": "https://www.twitter.com/"
+    },
+    {
+        "id": 3,
+        "name": "Reddit",
+        "icon": "ant-design:reddit-circle-filled",
+        "link": "https://www.reddit.com/"
+    },
+    {
+        "id": 4,
+        "name": "Instagram",
+        "icon": "ant-design:instagram-outlined",
+        "link": "https://www.instagram.com/"
+    },
+    {
+        "id": 5,
+        "name": "Github",
+        "icon": "ant-design:github-filled",
+        "link": "https://www.github.com/"
+    }
+]
